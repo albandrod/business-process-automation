@@ -125,7 +125,7 @@
     },
     "languageServicesLocation": {
       "type": "string",
-      "defaultValue": "westus2"
+      "defaultValue": "westeurope"
     },
     "environmentType": {
       "type": "string",
