@@ -125,7 +125,7 @@
     },
     "languageServicesLocation": {
       "type": "string",
-      "defaultValue": "westus2"
+      "defaultValue": "westeurope"
     },
     "environmentType": {
       "type": "string",
@@ -544,7 +544,7 @@
       "type": "Microsoft.CognitiveServices/accounts",
       "apiVersion": "2022-12-01",
       "name": "[parameters('openaiName')]",
-      "location": "southcentralus",
+      "location": "westeurope",
       "sku": {
         "name": "S0"
       },
@@ -633,7 +633,7 @@
       "type": "Microsoft.Cache/redisEnterprise",
       "apiVersion": "2022-01-01",
       "name": "[parameters('openaiName')]",
-      "location": "East US 2",
+      "location": "westeurope",
       "sku": {
         "name": "Enterprise_E10",
         "capacity": 2
@@ -965,7 +965,7 @@
       "type": "Microsoft.Web/staticSites",
       "apiVersion": "2020-12-01",
       "name": "[parameters('webAppName')]",
-      "location": "eastus2",
+      "location": "westeurope",
       "sku": {
         "name": "Standard",
         "tier": "Standard"
