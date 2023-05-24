@@ -121,7 +121,7 @@
     },
     "languageServicesLocation": {
       "type": "string",
-      "defaultValue": "westus2"
+      "defaultValue": "westeurope"
     },
     "environmentType": {
       "type": "string",
@@ -790,7 +790,7 @@
       "type": "Microsoft.Web/staticSites",
       "apiVersion": "2020-12-01",
       "name": "[parameters('webAppName')]",
-      "location": "eastus2",
+      "location": "westeurope",
       "sku": {
         "name": "Standard",
         "tier": "Standard"
